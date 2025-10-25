@@ -1,0 +1,19 @@
+{
+    "name": "alice/explorai",
+    "description": "Backend para explorai com Firebase",
+    "autoload": {
+        "psr-4": {
+            "Alice\\Explorai\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alice",
+            "email": "alicesouzam142@gmail.com"
+        }
+    ],
+    "require": {
+        "kreait/firebase-php": "*",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
